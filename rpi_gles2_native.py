@@ -731,6 +731,7 @@ glGetBufferParameteriv = gles2.glGetBufferParameteriv
 """ GL_APICALL GLenum       GL_APIENTRY glGetError (void); """
 gles2.glGetError.restype = GLenum
 gles2.glGetError.argtypes = ()  #
+gles2.glGetError.errcheck = gles2_errcheck
 glGetError = gles2.glGetError
 
 """ GL_APICALL void         GL_APIENTRY glGetFloatv (GLenum pname, GLfloat* params); """
