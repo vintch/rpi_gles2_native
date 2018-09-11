@@ -2,7 +2,7 @@
 # Code was auto generated from RPi's /opt/vc/include/GLES2/gl2.h
 # License: Copyleft
 
-GLES2_LIB = "/opt/vc/lib/libbrcmGLESv2.so"
+GLES2_LIB = "libGLESv2.so"
 
 #####################################################################
 
